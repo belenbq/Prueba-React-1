@@ -1,0 +1,55 @@
+.App {
+    width: 80%;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 6rem auto 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.inputs {
+    margin-bottom: 2rem;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    width: 350px;
+    margin-right: 2rem;
+}
+
+select {
+    padding: 0.5rem 1rem;
+    width: 250px;
+}
+
+select:active,
+select:focus {
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table th {
+    background: #555;
+    padding: 0.5rem;
+}
+
+table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
